@@ -12,7 +12,8 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Hydra eSupport"),
+        title: Text("Hydra eSupport", style: TextStyle(color: Color.fromARGB(255, 0, 0, 0))),
+        
       ),
       body: Center(
         // ignore: avoid_unnecessary_containers, duplicate_ignore

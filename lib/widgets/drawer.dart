@@ -1,3 +1,6 @@
+// ignore_for_file: prefer_const_constructors, use_key_in_widget_constructors, unused_import, use_build_context_synchronously
+
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -8,6 +11,7 @@ class MyDrawer extends StatelessWidget {
       backgroundColor: Colors.deepPurple,
       child: ListView(
         padding: EdgeInsets.zero,
+        // ignore: prefer_const_literals_to_create_immutables
         children: [
           DrawerHeader(
           padding: EdgeInsets.zero,
