@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_const_constructors, use_key_in_widget_constructors, unused_import, use_build_context_synchronously
 import 'dart:ffi';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_2/pages/utils/routes.dart';
+import 'package:flutter_application_2/utils/routes.dart';
 
 class LoginPage extends StatefulWidget {
   @override
